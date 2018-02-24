@@ -1,0 +1,10 @@
+RequestTypeEnum = {
+    GET_ALL_TABS: 1,
+    GOTO_TAB: 2,
+    SAVE_MAIN_DIV_WIDTH: 3,
+    CHANGE_MAIN_DIV_WIDTH: 4,
+    REMOVE_TAB: 5,
+    MUTED_TAB: 6,
+    AUDIBLE_TAB: 7,
+    UNPINNED_TAB: 8
+};

@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "default_locale" : "zh_CN",
+  "name": "Side Tabs",
+  "version": "0.1.1",
+  "permissions": [
+    "storage",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "js/common.js",
+      "js/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "js/common.js",
+        "lib/jquery-3.3.1.min.js",
+        "lib/velocity-2.0.0.min.js",
+        "js/content.js"
+      ],
+      "css": [
+        "css/icon.css"
+      ]
+    }
+  ]
+}

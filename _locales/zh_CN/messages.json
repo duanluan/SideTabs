@@ -1,0 +1,42 @@
+{
+  "menuNewTab": {
+    "message": "新标签页",
+    "description": ""
+  },
+  "menuReload": {
+    "message": "重新加载",
+    "description": ""
+  },
+  "menuDuplicate": {
+    "message": "复制",
+    "description": ""
+  },
+  "menuPinTab": {
+    "message": "固定标签页",
+    "description": ""
+  },
+  "menuMuteSite": {
+    "message": "将此标签页静音",
+    "description": ""
+  },
+  "menuCloseTab": {
+    "message": "关闭标签页",
+    "description": ""
+  },
+  "menuCloseOtherTab": {
+    "message": "关闭其他标签页",
+    "description": ""
+  },
+  "menuCloseTabsToTheBelow": {
+    "message": "关闭下方标签页",
+    "description": ""
+  },
+  "menuCloseTabsToTheAbove": {
+    "message": "关闭上方标签页",
+    "description": ""
+  },
+  "menuReopenClosedTab": {
+    "message": "重新打开关闭的标签页",
+    "description": ""
+  }
+}

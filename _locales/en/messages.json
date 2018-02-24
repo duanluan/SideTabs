@@ -1,0 +1,42 @@
+{
+  "menuNewTab": {
+    "message": "New tab",
+    "description": ""
+  },
+  "menuReload": {
+    "message": "Reload",
+    "description": ""
+  },
+  "menuDuplicate": {
+    "message": "Duplicate",
+    "description": ""
+  },
+  "menuPinTab": {
+    "message": "Pin tab",
+    "description": ""
+  },
+  "menuMuteSite": {
+    "message": "Mute site",
+    "description": ""
+  },
+  "menuCloseTab": {
+    "message": "Close tab",
+    "description": ""
+  },
+  "menuCloseOtherTab": {
+    "message": "Close other tabs",
+    "description": ""
+  },
+  "menuCloseTabsToTheBelow": {
+    "message": "Close tabs to the below",
+    "description": ""
+  },
+  "menuCloseTabsToTheAbove": {
+    "message": "Close tabs to the above",
+    "description": ""
+  },
+  "menuReopenClosedTab": {
+    "message": "Reopen closed tab",
+    "description": ""
+  }
+}
