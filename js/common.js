@@ -5,6 +5,6 @@ RequestTypeEnum = {
     CHANGE_MAIN_DIV_WIDTH: 4,
     REMOVE_TAB: 5,
     MUTED_TAB: 6,
-    AUDIBLE_TAB: 7,
+    VOCAL_TAB: 7,
     UNPINNED_TAB: 8
 };

@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "default_locale" : "zh_CN",
   "name": "Side Tabs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "permissions": [
     "storage",
     "tabs",
