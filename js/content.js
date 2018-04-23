@@ -6,7 +6,7 @@ $body.append("<style>" +
     "</style>" +
 
     // 主体内容
-    "<div id='z_main' style='position: fixed; top: 0; left: -230px; z-index:99999; width: 230px; height: " + document.body.clientHeight + "px; background: rgba(255,255,255,0.95);'>" +
+    "<div id='z_main' style='position: fixed; top: 0; left: 0; z-index:99999; width: 230px; height: " + document.body.clientHeight + "px; background: rgba(255,255,255,0.95);'>" +
     "   <ul id='z_tabs' style='float: left; padding: 5px; margin: 0; font-size: 12px; text-align: left; overflow-y: auto'></ul>" +
     "   <div id='z_show' style='float:right; width: 1px; height:100%'></div>" +
     "   <div id='z_border' style='float: right; height:100%; border-left: 1px solid #d1d1d1; cursor: col-resize'></div>" +
@@ -57,7 +57,7 @@ $(function () {
     // 初始化列表宽度
     setWidth();
     // 默认隐藏
-    // mainDiv.css("left", -mainDiv.width() + showDiv.width());
+    mainDiv.css("left", -mainDiv.width() + showDiv.width());
     // endregion
 
     // region 方法
