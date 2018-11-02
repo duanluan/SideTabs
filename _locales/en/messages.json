@@ -15,6 +15,10 @@
     "message": "Pin tab",
     "description": ""
   },
+  "menuCancelPinTab": {
+    "message": "Cancel pin tab",
+    "description": ""
+  },
   "menuMuteSite": {
     "message": "Mute site",
     "description": ""

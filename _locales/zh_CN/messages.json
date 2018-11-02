@@ -15,6 +15,10 @@
     "message": "固定标签页",
     "description": ""
   },
+  "menuCancelPinTab": {
+    "message": "取消固定标签页",
+    "description": ""
+  },
   "menuMuteSite": {
     "message": "将此标签页静音",
     "description": ""

@@ -2,8 +2,8 @@
   "manifest_version": 2,
   "default_locale" : "zh_CN",
   "name": "Side Tabs",
-  "description": "鼠标移到网页最左侧显示，Github 有 BUG，与 Stylish 插件不兼容。",
-  "version": "0.2.0",
+  "description": "鼠标移到网页最左侧时显示，在 Github 上显示有 BUG，与 Stylish 插件不兼容。",
+  "version": "0.2.1",
   "permissions": [
     "storage",
     "tabs",

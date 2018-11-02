@@ -3,7 +3,6 @@ var addedTabsListener = false;
 
 chrome.runtime.onConnect.addListener(function (port) {
     port.onMessage.addListener(function (msg) {
-
         function getAllTabs(highlightInfo) {
             // 获取存储的宽度
             chrome.storage.sync.get(['mainDivWidth'], function (items) {
@@ -13,6 +12,7 @@ chrome.runtime.onConnect.addListener(function (port) {
                     // 向指定 Tab 的 content script 发送消息，防止多个标签页执行监听
                     chrome.tabs.query({active: true, currentWindow: true}, function (currentTabs) {
                         chrome.tabs.sendMessage(currentTabs[0].id, {
+                            requestType: RequestTypeEnum.GET_ALL_TABS,
                             tabs: tabs,
                             mainDivWidth: items.mainDivWidth
                         });
@@ -55,6 +55,11 @@ chrome.runtime.onConnect.addListener(function (port) {
             chrome.tabs.update(msg.tabId, {muted: true});
         } else if (msg.requestType === RequestTypeEnum.VOCAL_TAB) {
             chrome.tabs.update(msg.tabId, {muted: false});
-        }
+        } /*else if (msg.requestType === RequestTypeEnum.IS_PINNED_TAB) {
+            chrome.tabs.get(msg.tabId, function (tab) {
+                alert(port);
+                port.postMessage({requestType: RequestTypeEnum.IS_PINNED_TAB, pinned: tab.pinned});
+            });
+        }*/
     });
 });
